@@ -1,0 +1,60 @@
+/************************
+    DISCIPLINA
+************************/
+.disciplina {
+    padding: 10px;
+    border: 1px solid #ffcc00;
+}
+
+.disciplina__titulo {
+    margin: -10px;
+    margin-bottom: 0;
+
+    background-color: #ffcc00;
+    color: white;
+
+    text-align: center;
+    font-size: 28px;
+    line-height: 2.5;
+}
+
+.disciplina__logo {
+    margin: 20px 0;
+
+    text-align: center;
+}
+
+.disciplina__rodape {
+    text-align: center;
+}
+
+/************************
+    BOTÃO
+************************/
+
+.botao {
+    display: inline-block;
+    padding: 12px 16px;
+
+    background-color: #bbb;
+    color: #fff;
+
+    text-decoration: none;
+}
+
+.botao:hover,
+.botao:focus {
+    background-color: #aaa;
+    color: #fff;
+
+    text-decoration: none;
+}
+
+.botao--conteudo {
+    background-color: #127d00;
+}
+
+.botao--conteudo:hover,
+.botao--conteudo:focus {
+    background-color: #0e6400;
+}

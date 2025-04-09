@@ -4,6 +4,8 @@
 .disciplina {
     padding: 10px;
     border: 1px solid #ffcc00;
+
+    font-size: 1.4rem;
 }
 
 .disciplina__titulo {
@@ -14,7 +16,7 @@
     color: white;
 
     text-align: center;
-    font-size: 28px;
+    font-size: 2em;
     line-height: 2.5;
 }
 
@@ -57,4 +59,54 @@
 .botao--conteudo:hover,
 .botao--conteudo:focus {
     background-color: #0e6400;
+}
+
+.botao--conhecer {
+    border-radius: 10px;
+    background-color: #997a00;
+}
+
+.botao--conhecer:hover,
+.botao--conhecer:focus {
+    background-color: #665200;
+}
+
+/************************
+    BANNER
+************************/
+.banner {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.banner__titulo {
+    margin: 0;
+
+    text-transform: uppercase;
+    color: white;
+    font-size: 3.375em;
+    /* 54px / 16 = 3.375 */
+
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+}
+
+.banner__subtitulo {
+    margin: 60px 0;
+
+    color: white;
+
+    font-size: 1em;
+}
+
+.banner__conhecer {
+    font-size: 1em;
+}
+
+@media (min-width:992px) {
+    .banner {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 2.2rem;
+    }
 }
